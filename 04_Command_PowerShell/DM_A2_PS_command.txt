@@ -1,0 +1,135 @@
+Å°file Directory
+C:\Hult_C\02_Dual Degree\01 Fall Åö\05 Data Management - DAT-7467 - BMBANDD1\ÅöA2\CSV
+
+cd 'C:\Hult_C\02_Dual Degree\01 Fall Åö\05 Data Management - DAT-7467 - BMBANDD1\ÅöA2\CSV'
+
+
+
+
+Å°Å°Å°Azure MySQL
+datamanagement.mysql.database.azure.com
+mnagao
+clever_password
+
+
+Å°Å°Å°Å°Connect MySQL on Azure
+mysql --local-infile=1 -h datamanagement.mysql.database.azure.com -u mnagao -p
+
+
+Å°Å°Å°Å°File convert 
+
+Å°account_section
+import-csv 'C:\Hult_C\02_Dual Degree\01 Fall Åö\05 Data Management - DAT-7467 - BMBANDD1\ÅöA2\CSV\account_section_1.csv' | export-csv 'C:\Hult_C\02_Dual Degree\01 Fall Åö\05 Data Management - DAT-7467 - BMBANDD1\ÅöA2\CSV\account_section_1_bis.csv' -NoTypeInformation -Encoding UTF8
+
+
+
+Å°accounting
+import-csv 'C:\Hult_C\02_Dual Degree\01 Fall Åö\05 Data Management - DAT-7467 - BMBANDD1\ÅöA2\CSV\accounting.csv' | export-csv 'C:\Hult_C\02_Dual Degree\01 Fall Åö\05 Data Management - DAT-7467 - BMBANDD1\ÅöA2\CSV\accounting_bis.csv' -NoTypeInformation -Encoding UTF8
+
+Å°sales
+import-csv 'C:\Hult_C\02_Dual Degree\01 Fall Åö\05 Data Management - DAT-7467 - BMBANDD1\ÅöA2\CSV\sales.csv' | export-csv 'C:\Hult_C\02_Dual Degree\01 Fall Åö\05 Data Management - DAT-7467 - BMBANDD1\ÅöA2\CSV\sales_bis.csv' -NoTypeInformation -Encoding UTF8
+
+import-csv 'C:\Hult_C\02_Dual Degree\01 Fall Åö\05 Data Management - DAT-7467 - BMBANDD1\ÅöA2\CSV\sales_final.csv' | export-csv 'C:\Hult_C\02_Dual Degree\01 Fall Åö\05 Data Management - DAT-7467 - BMBANDD1\ÅöA2\CSV\sales_bis.csv' -NoTypeInformation -Encoding UTF8
+
+ÅüÅüç≈êV
+import-csv 'C:\Hult_C\02_Dual Degree\01 Fall Åö\05 Data Management - DAT-7467 - BMBANDD1\ÅöA2\CSV\sales_final_3.csv' | export-csv 'C:\Hult_C\02_Dual Degree\01 Fall Åö\05 Data Management - DAT-7467 - BMBANDD1\ÅöA2\CSV\sales_final_3_bis.csv' -NoTypeInformation -Encoding UTF8
+
+
+Å°product
+import-csv 'C:\Hult_C\02_Dual Degree\01 Fall Åö\05 Data Management - DAT-7467 - BMBANDD1\ÅöA2\CSV\product.csv' | export-csv 'C:\Hult_C\02_Dual Degree\01 Fall Åö\05 Data Management - DAT-7467 - BMBANDD1\ÅöA2\CSV\product_bis.csv' -NoTypeInformation -Encoding UTF8
+
+ÅüÅüç≈êV
+import-csv 'C:\Hult_C\02_Dual Degree\01 Fall Åö\05 Data Management - DAT-7467 - BMBANDD1\ÅöA2\CSV\product cleaned final.csv' | export-csv 'C:\Hult_C\02_Dual Degree\01 Fall Åö\05 Data Management - DAT-7467 - BMBANDD1\ÅöA2\CSV\product cleaned final_bis.csv' -NoTypeInformation -Encoding UTF8
+
+
+
+------------------------------------
+Å°Å°Å°Å°Order of data upload
+account section Å® accounting
+product Å® seles
+
+Å°Å°Å°Å°Connection
+mysql --local-infile=1 -h datamanagement.mysql.database.azure.com -u mnagao -p
+
+Å°Å°Å°Å°Global setting Å©No need
+SET GLOBAL local_infile = 1;
+
+
+Å°Å°Å°Å°Date upload
+-------------------------------------------á@account_section-------------------
+----
+USE h1b;
+
+LOAD DATA LOCAL INFILE 'account_section_1_bis.csv'
+INTO TABLE `account_section`
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\r\n' 
+IGNORE 1 LINES
+;
+
+
+Query OK, 59 rows affected, 59 warnings (0.23 sec)
+Records: 59  Deleted: 0  Skipped: 0  Warnings: 59
+
+
+--------------------------------------áAaccounting
+----
+USE h1b;
+
+LOAD DATA LOCAL INFILE 'accounting_bis.csv'
+INTO TABLE `accounting`
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\r\n' 
+IGNORE 1 LINES
+;
+
+
+Query OK, 4844 rows affected, 4118 warnings (0.50 sec)
+Records: 4844  Deleted: 0  Skipped: 0  Warnings: 4118
+
+
+
+----------------------------------------áBsales
+----
+USE h1b;
+
+LOAD DATA LOCAL INFILE 'sales_bis.csv'
+INTO TABLE `sales`
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\r\n' 
+IGNORE 1 LINES
+;
+
+Query OK, 20137 rows affected, 10877 warnings (11.69 sec)
+Records: 20137  Deleted: 0  Skipped: 0  Warnings: 10877
+
+---------------------------------------ÅöáBsales final(200,000)
+----
+USE h1b;
+
+LOAD DATA LOCAL INFILE 'sales_final_3_bis.csv'
+INTO TABLE `sales`
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\r\n' 
+IGNORE 1 LINES
+
+
+
+---------------------------------------áCproduct
+----
+USE h1b;
+
+LOAD DATA LOCAL INFILE 'product cleaned final_bis.csv'
+INTO TABLE `product`
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\r\n' 
+IGNORE 1 LINES
+;
+
+
+SHOW WARNINGS;

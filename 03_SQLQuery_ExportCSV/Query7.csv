@@ -1,0 +1,451 @@
+department_id,item_id,item_name,transaction_count,total_sales,avg_price,dept_product_percentage,product_rank_in_dept
+-4,20116,"Add Espresso Shot",2,-2.00,-1.00,0.02,1
+-4,20119,"Oat Milk",2,-2.00,-1.00,0.02,1
+-4,20374,"Pride Rainbow Donut",1,-2.00,-2.00,0.02,1
+-4,20382,"Black Bean Sandwich",1,-2.00,-2.00,0.02,1
+-4,20409,"Thai Tea Donut",1,-2.00,-2.00,0.02,1
+-4,20370,"Promo Latte",1,-2.38,-2.38,0.02,6
+-4,20114,"Hot Tea",1,-2.75,-2.75,0.03,7
+-4,20186,"Happy Hour Lager",1,-3.00,-3.00,0.03,8
+-4,20131,Flavor,13,-3.31,-0.25,0.03,9
+-4,205,"Butter Croissant",1,-3.50,-3.50,0.03,10
+-4,20350,"Chocolate Mochi Donut",1,-3.50,-3.50,0.03,10
+-4,106,"White Mocha (Hot)",1,-4.75,-4.75,0.04,12
+-4,20180,"Seasonal Danish",1,-4.75,-4.75,0.04,12
+-4,20317,"Large Pink Drink",1,-4.75,-4.75,0.04,12
+-4,20326,"Lrg Shortbread Cold Brew",1,-4.75,-4.75,0.04,12
+-4,115,"Med Coffee Javalanche",1,-5.00,-5.00,0.05,16
+-4,20335,"Coffee Mug",1,-5.00,-5.00,0.05,16
+-4,20423,"Mulled Wine",1,-5.00,-5.00,0.05,16
+-4,20228,"Merrimint White Mocha",1,-5.25,-5.25,0.05,19
+-4,20331,"Choc Truffle Caramel Macchiato",1,-5.25,-5.25,0.05,19
+-4,20402,"egg bagel",1,-5.50,-5.50,0.05,21
+-4,20418,"Lrg Gingerbread Chai",1,-5.75,-5.75,0.05,22
+-4,20209,"HH IPA",1,-6.00,-6.00,0.06,23
+-4,20295,"Large Hot Tea",2,-6.50,-3.25,0.06,24
+-4,2001,"Vino Verde",1,-7.50,-7.50,0.07,25
+-4,20315,Blondie,2,-7.50,-3.75,0.07,25
+-4,20154,"London Fog",2,-8.00,-4.00,0.08,27
+-4,20147,Chips,1,-8.25,-8.25,0.08,28
+-4,20314,"Large Bluebeary Lemonade",1,-8.75,-8.75,0.08,29
+-4,20336,"Large London Fog",2,-9.00,-4.50,0.08,30
+-4,20364,"Mochi Brownie Muffin",2,-9.00,-4.50,0.08,30
+-4,20401,Pumperthingel,2,-9.00,-4.50,0.08,30
+-4,113,"Med Mocha Javalanche",1,-10.00,-10.00,0.09,33
+-4,204,Brownie,4,-10.00,-2.50,0.09,33
+-4,20121,"Thai Tea (Iced)",1,-10.00,-10.00,0.09,33
+-4,20298,t-shirt,1,-10.00,-10.00,0.09,33
+-4,20183,"Poppy Bagel",2,-10.50,-5.25,0.10,37
+-4,20229,"Iced Merrimint White Mocha",2,-10.50,-5.25,0.10,37
+-4,20267,"Large Mocha Javalanche",2,-11.50,-5.75,0.11,39
+-4,20332,"Lrg Choc Truf Carm Macchiato",2,-11.50,-5.75,0.11,39
+-4,20296,"Large Brewed Coffee",4,-12.25,-3.06,0.12,41
+-4,20348,"Mango Passion Mochi Donut",2,-12.25,-6.13,0.12,41
+-4,20302,"pumpkin latte",2,-13.00,-6.50,0.12,43
+-4,20394,"BUTTER BEER",1,-13.17,-13.17,0.12,44
+-4,20256,"Simply Lemonade",1,-13.25,-13.25,0.13,45
+-4,110,"Mocha (Iced)",2,-13.50,-6.75,0.13,46
+-4,20337,"Arnold Palmer",2,-14.00,-7.00,0.13,47
+-4,20353,"Pistachio Cinn Cream Cold Brew",2,-14.25,-7.13,0.13,48
+-4,20345,"Mochi Muffin",2,-14.50,-7.25,0.14,49
+-4,116,"Iced Tea",5,-15.00,-3.00,0.14,50
+-4,20322,"Lrg Gingerbread Latte",3,-15.75,-5.25,0.15,51
+-4,20333,"Iced Choc Truf Carm Macchiato",3,-16.29,-5.43,0.15,52
+-4,20226,"Iced Gingerbread Latte",3,-16.75,-5.58,0.16,53
+-4,20137,"Salted Caramel Cookie",2,-17.25,-8.63,0.16,54
+-4,20291,"Large Chocolate Truffle Mocha",3,-17.25,-5.75,0.16,54
+-4,20323,"Lrg Ice Gingerbread Latte",3,-17.25,-5.75,0.16,54
+-4,20258,"Strawberry Acai Refresher",6,-17.75,-2.96,0.17,57
+-4,20408,"Pumpkin Muffin",1,-18.10,-18.10,0.17,58
+-4,600,"Plain Cream Cheese",3,-18.60,-6.20,0.18,59
+-4,20279,"Large Iced Tea",4,-19.00,-4.75,0.18,60
+-4,20260,"Flat White",5,-19.50,-3.90,0.18,61
+-4,20380,"Pesto Turkey Sandwich",3,-19.90,-6.63,0.19,62
+-4,20161,"Chicken Caesar Salad",2,-20.00,-10.00,0.19,63
+-4,20241,"Happy Hour Kombucha",1,-20.00,-20.00,0.19,63
+-4,1003,Cider,3,-21.00,-7.00,0.20,65
+-4,20139,"Sea Salt Pretzel",4,-21.00,-5.25,0.20,65
+-4,20284,"Large Iced Thai Tea Latte",4,-21.00,-5.25,0.20,65
+-4,203,"Chocolate Chunk Cookie",5,-21.75,-4.35,0.21,68
+-4,105,"Mocha (Hot)",4,-22.00,-5.50,0.21,69
+-4,20381,"Cubano Pork Sandwich",2,-22.00,-11.00,0.21,69
+-4,20269,"Large Coffee Javalanche",4,-23.00,-5.75,0.22,71
+-4,20338,"Large Arnold Palmer",3,-23.75,-7.92,0.22,72
+-4,20266,"Dragonfruit refresher",6,-24.25,-4.04,0.23,73
+-4,20289,"Large White Mocha",4,-24.50,-6.13,0.23,74
+-4,202,"Cinnamon Raisin Bagel",6,-26.50,-4.42,0.25,75
+-4,20127,"Matcha Latte (Hot)",5,-27.50,-5.50,0.26,76
+-4,20328,Lemonade,3,-28.44,-9.48,0.27,77
+-4,20215,"Pumpkin Cold Brew",3,-29.50,-9.83,0.28,78
+-4,20239,"Grilled Vegetable Sandwich",2,-29.50,-14.75,0.28,78
+-4,20324,"Lrg Ice Merrimint White Mocha",5,-29.75,-5.95,0.28,80
+-4,20297,"Large Hot Chocolate",6,-30.00,-5.00,0.28,81
+-4,20282,"Large Dragonfruit Refresher",6,-30.50,-5.08,0.29,82
+-4,20321,"Lge Merrimint White Mocha",5,-33.00,-6.60,0.31,83
+-4,20156,Americano,8,-34.00,-4.25,0.32,84
+-4,20225,"Gingerbread Latte",5,-34.75,-6.95,0.33,85
+-4,101,Espresso,12,-35.62,-2.97,0.34,86
+-4,114,"Med Caramel Javalanche",5,-39.00,-7.80,0.37,87
+-4,20168,"Roast Beef Sandwich",2,-39.85,-19.93,0.38,88
+-4,20232,"Chicken Pesto Pizza",1,-43.50,-43.50,0.41,89
+-4,20347,"Churro Muffin",4,-44.25,-11.06,0.42,90
+-4,20211,"Chai Tea Latte Hot",6,-46.25,-7.71,0.44,91
+-4,20244,"Iced Chocolate Truffle Mocha",6,-46.50,-7.75,0.44,92
+-4,20365,"Ube Mochi Muffin",8,-48.50,-6.06,0.46,93
+-4,20185,"Happy Hour Kolsch",5,-49.68,-9.94,0.47,94
+-4,20320,"HH Wed Drink",7,-52.92,-7.56,0.50,95
+-4,20288,"Large Caramel Macchiato",9,-57.13,-6.35,0.54,96
+-4,20286,"Large Americano",15,-58.75,-3.92,0.55,97
+-4,20280,"Large Straw Acai Refresher",11,-63.00,-5.73,0.59,98
+-4,20115,"Hot Chocolate",5,-63.57,-12.71,0.60,99
+-4,107,"Caramel Macchiato (Hot)",4,-64.50,-16.13,0.61,100
+-4,20386,"Bagel Breakfast Sandwich",4,-65.25,-16.31,0.62,101
+-4,20277,"Large Iced Mocha",12,-66.50,-5.54,0.63,102
+-4,108,"Brewed Coffee",9,-68.00,-7.56,0.64,103
+-4,200,"Plain Bagel",7,-68.37,-9.77,0.65,104
+-4,20292,"Large Chai Latte",12,-70.00,-5.83,0.66,105
+-4,300,Izze,7,-70.57,-10.08,0.67,106
+-4,20271,"Large Iced Americano",20,-71.50,-3.58,0.67,107
+-4,20170,"Wild Mushroom Flatbread",6,-75.00,-12.50,0.71,108
+-4,20248,"Vanilla Sweet Cream Cold Brew",12,-75.00,-6.25,0.71,108
+-4,20240,"Breakfast Sandwich",5,-77.25,-15.45,0.73,110
+-4,20278,"Large Iced Truffle Mocha",12,-77.25,-6.44,0.73,110
+-4,102,"Americano (Iced)",14,-77.48,-5.53,0.73,112
+-4,20141,"Ham & Cheese Croissant",8,-78.75,-9.84,0.74,113
+-4,206,"Chocolate Croissant",8,-85.50,-10.69,0.81,114
+-4,20184,"Sesame Bagel",15,-85.63,-5.71,0.81,115
+-4,112,"Cold Brew",20,-88.00,-4.40,0.83,116
+-4,20294,"Large Matcha Latte",15,-89.50,-5.97,0.84,117
+-4,20273,"Large Vanilla Sweet Cream Cold",19,-91.75,-4.83,0.87,118
+-4,20120,"White Mocha (Iced)",15,-99.75,-6.65,0.94,119
+-4,20290,"Large Mocha",18,-103.00,-5.72,0.97,120
+-4,20330,"Large Cappuccino",21,-107.25,-5.11,1.01,121
+-4,20312,"Fan Shop",1,-108.00,-108.00,1.02,122
+-4,20243,"Chocolate Truffle Mocha",10,-110.52,-11.05,1.04,123
+-4,20305,"Pumpkin Latte",16,-120.13,-7.51,1.13,124
+-4,20212,"Iced Chai Tea Latte",17,-135.18,-7.95,1.28,125
+-4,20238,"Rueben Sandwich",12,-137.89,-11.49,1.30,126
+-4,20276,"Large Iced White Mocha",21,-142.25,-6.77,1.34,127
+-4,104,Cappuccino,28,-152.30,-5.44,1.44,128
+-4,20283,"Large Iced Chai Tea Latte",29,-165.68,-5.71,1.56,129
+-4,20181,"Almond Croissant",19,-173.25,-9.12,1.63,130
+-4,20172,"Italian Meat Lovers Flatbread",17,-194.75,-11.46,1.84,131
+-4,20285,"Large Iced Matcha",34,-203.94,-6.00,1.92,132
+-4,207,"Morning Bun",5,-207.42,-41.48,1.96,133
+-4,20126,"Matcha Latte (Cold)",31,-212.90,-6.87,2.01,134
+-4,20153,"Caramel Macchiato Iced",32,-217.18,-6.79,2.05,135
+-4,20275,"Large Iced Caramel Macchiato",41,-252.75,-6.16,2.39,136
+-4,20135,"Everything Bagel",36,-290.55,-8.07,2.74,137
+-4,103,"Latte (Hot)",53,-361.59,-6.82,3.41,138
+-4,20272,"Large Cold Brew",55,-379.44,-6.90,3.58,139
+-4,20166,"Chipotle Turkey Sandwich",25,-421.75,-16.87,3.98,140
+-4,20287,"Large Latte",77,-476.64,-6.19,4.50,141
+-4,109,"Latte (Iced)",93,-586.32,-6.30,5.53,142
+-4,20274,"Large Iced Latte",141,-1908.78,-13.54,18.01,143
+1,103,"Latte (Hot)",7947,37845.50,4.76,25.89,1
+1,104,Cappuccino,5037,20369.25,4.04,13.94,2
+1,108,"Brewed Coffee",4694,11775.25,2.51,8.06,3
+1,20156,Americano,3721,11681.25,3.14,7.99,4
+1,20211,"Chai Tea Latte Hot",2252,11075.25,4.92,7.58,5
+1,105,"Mocha (Hot)",1623,7682.75,4.73,5.26,6
+1,20115,"Hot Chocolate",1793,7542.75,4.21,5.16,7
+1,20127,"Matcha Latte (Hot)",1457,7393.50,5.07,5.06,8
+1,101,Espresso,2308,6013.25,2.61,4.11,9
+1,107,"Caramel Macchiato (Hot)",1005,4755.50,4.73,3.25,10
+1,20114,"Hot Tea",1622,4231.00,2.61,2.89,11
+1,106,"White Mocha (Hot)",818,3855.75,4.71,2.64,12
+1,20302,"pumpkin latte",549,2656.75,4.84,1.82,13
+1,20243,"Chocolate Truffle Mocha",531,2655.50,5.00,1.82,14
+1,20228,"Merrimint White Mocha",292,1460.00,5.00,1.00,15
+1,20225,"Gingerbread Latte",294,1327.75,4.52,0.91,16
+1,20154,"London Fog",266,1131.50,4.25,0.77,17
+1,111,"Thai Latte (Hot)",132,584.25,4.43,0.40,18
+1,20260,"Flat White",149,505.00,3.39,0.35,19
+1,20257,"Coffee Carrier",70,455.00,6.50,0.31,20
+1,20160,"Steamed Milk",188,448.25,2.38,0.31,21
+1,20331,"Choc Truffle Caramel Macchiato",87,333.75,3.84,0.23,22
+1,20416,"Gingerbread Chai",36,196.00,5.44,0.13,23
+1,20379,"Cafe Au Lait",51,117.50,2.30,0.08,24
+1,20231,"World Cup Cocoa",18,40.00,2.22,0.03,25
+1,20367,"promo coffee",8,19.25,2.41,0.01,26
+1,20158,"Hot Water Cup",131,17.25,0.13,0.01,27
+1,20387,"Resident Americano",1,3.00,3.00,0.00,28
+2,109,"Latte (Iced)",14677,75487.25,5.14,28.97,1
+2,20126,"Matcha Latte (Cold)",5622,30818.75,5.48,11.83,2
+2,20153,"Caramel Macchiato Iced",4937,25207.75,5.11,9.68,3
+2,20212,"Iced Chai Tea Latte",4258,21140.25,4.96,8.11,4
+2,112,"Cold Brew",4457,16247.50,3.65,6.24,5
+2,102,"Americano (Iced)",4400,13920.50,3.16,5.34,6
+2,20248,"Vanilla Sweet Cream Cold Brew",2701,11182.50,4.14,4.29,7
+2,20120,"White Mocha (Iced)",1881,9627.50,5.12,3.70,8
+2,110,"Mocha (Iced)",1732,8770.50,5.06,3.37,9
+2,20258,"Strawberry Acai Refresher",1683,6969.00,4.14,2.67,10
+2,20320,"HH Wed Drink",2227,6846.00,3.07,2.63,11
+2,116,"Iced Tea",2197,6346.25,2.89,2.44,12
+2,20244,"Iced Chocolate Truffle Mocha",907,4492.00,4.95,1.72,13
+2,20215,"Pumpkin Cold Brew",912,3686.50,4.04,1.42,14
+2,20266,"Dragonfruit refresher",817,3396.25,4.16,1.30,15
+2,20328,Lemonade,822,2446.00,2.98,0.94,16
+2,20121,"Thai Tea (Iced)",493,2295.25,4.66,0.88,17
+2,20337,"Arnold Palmer",454,1721.75,3.79,0.66,18
+2,20226,"Iced Gingerbread Latte",330,1572.00,4.76,0.60,19
+2,20229,"Iced Merrimint White Mocha",295,1480.50,5.02,0.57,20
+2,20333,"Iced Choc Truf Carm Macchiato",207,1003.75,4.85,0.39,21
+2,20353,"Pistachio Cinn Cream Cold Brew",220,884.00,4.02,0.34,22
+2,20259,"Wildberry Hibiscus Refresher",164,676.75,4.13,0.26,23
+2,20300,"Greek Caramel Macchiato",151,626.25,4.15,0.24,24
+2,20313,"Bluebeary Lemonade",160,580.00,3.63,0.22,25
+2,20325,"Shortbread Cold Brew",139,555.25,3.99,0.21,26
+2,20363,"Promo Vanilla Latte",171,527.00,3.08,0.20,27
+2,20261,"Memory Lane Milkshake",130,387.00,2.98,0.15,28
+2,20417,"Iced Gingerbread Chai",66,299.75,4.54,0.12,29
+2,20227,"Gingerbread Cold Brew",75,288.75,3.85,0.11,30
+2,20406,"Game Day Deal",48,228.00,4.75,0.09,31
+2,20316,"Pink Drink",62,201.25,3.25,0.08,32
+2,20413,"The Creature",45,173.75,3.86,0.07,33
+2,20376,"Lavender Latte/Rainbow Sprink.",45,132.00,2.93,0.05,34
+2,20370,"Promo Latte",96,131.52,1.37,0.05,35
+2,20361,"Promo BB Lemonade",41,111.00,2.71,0.04,36
+2,20388,"Resident Iced Americano",12,36.00,3.00,0.01,37
+2,20318,"Discount Pink Drink",12,32.50,2.71,0.01,38
+3,203,"Chocolate Chunk Cookie",3626,12694.50,3.50,36.53,1
+3,20139,"Sea Salt Pretzel",2475,9341.25,3.77,26.88,2
+3,204,Brownie,1187,3838.75,3.23,11.05,3
+3,20137,"Salted Caramel Cookie",1028,3287.00,3.20,9.46,4
+3,20245,"Pimenton Pretzel Roll",641,2769.25,4.32,7.97,5
+3,207,"Morning Bun",200,845.50,4.23,2.43,6
+3,20315,Blondie,232,795.00,3.43,2.29,7
+3,20180,"Seasonal Danish",142,650.75,4.58,1.87,8
+3,20200,"Sunflower Pretzel",80,288.75,3.61,0.83,9
+3,20246,Scone,42,123.50,2.94,0.36,10
+3,20377,"Banana Walnut Loaf",23,76.00,3.30,0.22,11
+3,20136,"Marshmallow Bar",14,45.00,3.21,0.13,12
+4,20116,"Add Espresso Shot",760,668.75,0.88,30.48,1
+4,20119,"Oat Milk",469,430.00,0.92,19.60,2
+4,20131,Flavor,429,347.50,0.81,15.84,3
+4,600,"Plain Cream Cheese",273,248.75,0.91,11.34,4
+4,20118,"Almond Milk ",261,237.00,0.91,10.80,5
+4,20132,"Chive Cream Cheese",172,170.75,0.99,7.78,6
+4,20117,"Soy Milk ",68,54.00,0.79,2.46,7
+4,20389,"Cold Foam",29,37.50,1.29,1.71,8
+4,20247,"Peanut Butter",6,0.00,0.00,0.00,9
+5,20166,"Chipotle Turkey Sandwich",4324,36250.00,8.38,29.77,1
+5,20240,"Breakfast Sandwich",1923,16186.00,8.42,13.29,2
+5,20238,"Rueben Sandwich",1259,10490.00,8.33,8.61,3
+5,20380,"Pesto Turkey Sandwich",681,9114.00,13.38,7.48,4
+5,20172,"Italian Meat Lovers Flatbread",950,8460.00,8.91,6.95,5
+5,20170,"Wild Mushroom Flatbread",870,7997.00,9.19,6.57,6
+5,20239,"Grilled Vegetable Sandwich",870,7142.00,8.21,5.86,7
+5,20386,"Bagel Breakfast Sandwich",723,6830.00,9.45,5.61,8
+5,20168,"Roast Beef Sandwich",321,2971.00,9.26,2.44,9
+5,20384,"Chicken Breakfast Sandwich",377,2934.00,7.78,2.41,10
+5,20381,"Cubano Pork Sandwich",227,2769.00,12.20,2.27,11
+5,20382,"Black Bean Sandwich",212,2626.00,12.39,2.16,12
+5,20167,"Tomato Caprese Sandwich",236,1776.00,7.53,1.46,13
+5,20161,"Chicken Caesar Salad",178,1740.00,9.78,1.43,14
+5,20232,"Chicken Pesto Pizza",148,1268.00,8.57,1.04,15
+5,20171,"Classic Margherita Flatbread",90,840.00,9.33,0.69,16
+5,20385,"French Toast Breakfast Sandwic",73,520.00,7.12,0.43,17
+5,20178,"Yogurt Parfait",86,518.00,6.02,0.43,18
+5,20224,"Chef's Salad",17,225.00,13.24,0.18,19
+5,20383,"Vegan Fattoush Salad",20,224.00,11.20,0.18,20
+5,20221,"Italian Salami Panini",20,160.00,8.00,0.13,21
+5,20179,"Fruit Cup",30,120.00,4.00,0.10,22
+5,20176,"Charcuterie Box",10,115.00,11.50,0.09,23
+5,20395,banana,68,100.50,1.48,0.08,24
+5,20223,"Ham & Cheese",11,72.00,6.55,0.06,25
+5,20420,"Chobani Yogurt",15,60.00,4.00,0.05,26
+5,20173,"BBQ Asian Chicken Flatbread",7,50.00,7.14,0.04,27
+5,20165,"Grilled Chicken Sandwich",6,48.00,8.00,0.04,28
+5,20234,"Proscuitto Pizza",8,48.00,6.00,0.04,28
+5,20233,"Vegetarian Chorizo Pizza",5,40.00,8.00,0.03,30
+5,20230,"Salami Pizza",4,20.00,5.00,0.02,31
+5,20235,"Charcuterie Pizza",2,18.00,9.00,0.01,32
+5,20236,"Chicken Bacon Panini",2,16.00,8.00,0.01,33
+5,20162,"California Chicken Cobb Salad",5,10.00,2.00,0.01,34
+5,20164,"Vegan Power Bowl",1,10.00,10.00,0.01,34
+5,20343,"Dollar off Pizza",1,9.00,9.00,0.01,36
+6,20207,"IPA draft",1485,6900.50,4.65,23.80,1
+6,20249,"Scrimshaw Draft",1033,4981.50,4.82,17.18,2
+6,20250,"Scrimshaw Pitcher",166,3225.00,19.43,11.12,3
+6,1003,Cider,650,3155.25,4.85,10.88,4
+6,20208,"IPA Pitcher",169,2425.00,14.35,8.36,5
+6,1001,"EB Helles Lager",520,2290.00,4.40,7.90,6
+6,20145,"Cider Pitcher",75,1530.00,20.40,5.28,7
+6,20143,"EB Helles Lager Pitcher",70,1100.00,15.71,3.79,8
+6,20390,Paulaner,198,1006.50,5.08,3.47,9
+6,1002,"Kolsch Draft",120,550.00,4.58,1.90,10
+6,20217,"Fest Bier",106,490.00,4.62,1.69,11
+6,20391,"Paulaner Pitcher",26,450.00,17.31,1.55,12
+6,20144,"Kolsch Pitcher",21,375.00,17.86,1.29,13
+6,20199,"Large Beer Can",46,228.00,4.96,0.79,14
+6,20218,"Pitcher FestBier",13,175.00,13.46,0.60,15
+6,20237,"Kombucha Can",7,42.00,6.00,0.14,16
+6,20394,"BUTTER BEER",11,35.00,3.18,0.12,17
+6,20359,Hefeweizen,17,25.00,1.47,0.09,18
+6,20204,"Munich Bottle",1,6.00,6.00,0.02,19
+6,20206,"Small Beer Can",1,5.00,5.00,0.02,20
+7,2000,"Sauvignon Blanc",273,1758.50,6.44,31.34,1
+7,2002,Rose,142,983.00,6.92,17.52,2
+7,20262,"Pinot Noir",116,787.50,6.79,14.03,3
+7,20310,Chardonnay,96,682.50,7.11,12.16,4
+7,2001,"Vino Verde",83,460.00,5.54,8.20,5
+7,2004,Malbec,42,255.00,6.07,4.54,6
+7,20264,Wildflower,28,172.50,6.16,3.07,7
+7,2003,"Cabernet Sauvignon",35,157.50,4.50,2.81,8
+7,20309,Sangria,31,145.00,4.68,2.58,9
+7,20254,Reisling,17,124.50,7.32,2.22,10
+7,20340,"Soju Cocktail",18,70.00,3.89,1.25,11
+7,20342,Mocktail,9,15.00,1.67,0.27,12
+8,301,"Proud Source Water",1898,5409.00,2.85,26.10,1
+8,303,Pellegrino,1428,4389.75,3.07,21.18,2
+8,300,Izze,1434,3159.50,2.20,15.25,3
+8,20177,"Pressed Juice",292,2204.00,7.55,10.64,4
+8,20147,Chips,918,1972.50,2.15,9.52,5
+8,20256,"Simply Lemonade",324,1174.00,3.62,5.67,6
+8,20405,"Soda Can",222,550.00,2.48,2.65,7
+8,20378,"Protein Bar",109,510.00,4.68,2.46,8
+8,302,"Naked Juice",118,312.80,2.65,1.51,9
+8,20298,t-shirt,31,306.00,9.87,1.48,10
+8,20368,"Crystal Gyser",101,166.25,1.65,0.80,11
+8,20136,"Marshmallow Bar",44,150.00,3.41,0.72,12
+8,20399,"NuGo Bar",53,123.00,2.32,0.59,13
+8,20398,"Buddy Fruit",49,83.25,1.70,0.40,14
+8,20335,"Coffee Mug",10,80.00,8.00,0.39,15
+8,20407,"Clear Bag",9,35.00,3.89,0.17,16
+8,20395,banana,20,31.50,1.58,0.15,17
+8,20421,"Edmonds Sticker ",10,30.00,3.00,0.14,18
+8,20146,"Whole Fruit",21,28.50,1.36,0.14,19
+8,20410,Sunbutter,3,4.50,1.50,0.02,20
+8,20360,"$1 off Izze",1,1.75,1.75,0.01,21
+13,20135,"Everything Bagel",8863,43736.50,4.93,41.83,1
+13,200,"Plain Bagel",4355,20693.00,4.75,19.79,2
+13,20184,"Sesame Bagel",3746,18197.00,4.86,17.41,3
+13,202,"Cinnamon Raisin Bagel",3084,14446.00,4.68,13.82,4
+13,20183,"Poppy Bagel",1089,5210.25,4.78,4.98,5
+13,20400,"Monday Meal",202,1745.02,8.64,1.67,6
+13,20401,Pumperthingel,47,237.50,5.05,0.23,7
+13,20402,"egg bagel",45,192.50,4.28,0.18,8
+13,20369,"Promo Bagel",29,45.56,1.57,0.04,9
+13,20242,Baily,15,44.00,2.93,0.04,10
+14,206,"Chocolate Croissant",4538,21063.00,4.64,29.33,1
+14,20141,"Ham & Cheese Croissant",3972,20945.00,5.27,29.16,2
+14,20181,"Almond Croissant",3617,16932.50,4.68,23.58,3
+14,205,"Butter Croissant",3454,12881.50,3.73,17.94,4
+14,20371,"Free Pastry",30,0.00,0.00,0.00,5
+15,113,"Med Mocha Javalanche",392,1946.25,4.96,36.18,1
+15,114,"Med Caramel Javalanche",356,1771.75,4.98,32.94,2
+15,115,"Med Coffee Javalanche",137,526.00,3.84,9.78,3
+15,20267,"Large Mocha Javalanche",68,333.50,4.90,6.20,4
+15,20268,"Large Caramel Javalanche",66,287.50,4.36,5.34,5
+15,20128,"Med Matcha Javalanche",55,232.00,4.22,4.31,6
+15,20269,"Large Coffee Javalanche",27,120.75,4.47,2.24,7
+15,20155,"Vanilla Cream Javalanche",17,77.50,4.56,1.44,8
+15,20270,"Large Matcha Javalanche",19,51.75,2.72,0.96,9
+15,20129,"Thai Tea Javalanche",6,32.00,5.33,0.59,10
+17,20209,"HH IPA",2392,6831.00,2.86,21.80,1
+17,20251,"HH Scrimshaw",1353,3915.00,2.89,12.50,2
+17,20188,"Happy Hour Cider",1360,3831.75,2.82,12.23,3
+17,20210,"Happy Hour IPA Pitcher",302,3420.00,11.32,10.92,4
+17,20252,"HH Scrimshaw Pitcher",249,2805.00,11.27,8.95,5
+17,20186,"Happy Hour Lager",976,2709.00,2.78,8.65,6
+17,20190,"Happy Hour Lager Pitcher",163,1965.00,12.06,6.27,7
+17,20192,"HH Cider Pitcher",129,1365.75,10.59,4.36,8
+17,20392,"HH Paulaner",477,1341.00,2.81,4.28,9
+17,20393,"HH Paulaner Pitcher",85,1020.00,12.00,3.26,10
+17,20185,"Happy Hour Kolsch",201,525.00,2.61,1.68,11
+17,20189,"Happy Hour Kolsch Pitcher",49,435.00,8.88,1.39,12
+17,20199,"Large Beer Can",110,292.00,2.65,0.93,13
+17,20358,"HH Hefeweizen",90,252.00,2.80,0.80,14
+17,20219,"HH festbier",77,225.00,2.92,0.72,15
+17,20403,"Polish Raspberry Porter",28,112.50,4.02,0.36,16
+17,20195,"Happy Hour Rose",23,68.25,2.97,0.22,17
+17,20194,"Happy Hour Vino Verde",21,61.75,2.94,0.20,18
+17,20220,"HH Pit Fest",13,45.00,3.46,0.14,19
+17,20193,"Happy Hour Sauvignon Blanc",13,35.75,2.75,0.11,20
+17,20196,"Happy Hour Cabernet",11,30.25,2.75,0.10,21
+17,20308,"Beer Can",11,25.00,2.27,0.08,22
+17,20411,"HH Michelada",3,12.00,4.00,0.04,23
+17,20197,"Happy Hour Malbec",2,7.50,3.75,0.02,24
+18,20193,"Happy Hour Sauvignon Blanc",201,675.75,3.36,14.52,1
+18,20195,"Happy Hour Rose",152,555.00,3.65,11.93,2
+18,20253,"HH Sangria",151,539.00,3.57,11.58,3
+18,20423,"Mulled Wine",96,480.00,5.00,10.32,4
+18,20194,"Happy Hour Vino Verde",128,406.50,3.18,8.74,5
+18,20311,"HH Chardonnay",100,385.00,3.85,8.27,6
+18,20263,"Happy Hour Pinot Noir",92,354.00,3.85,7.61,7
+18,20339,"HH Soju Cocktail",60,280.00,4.67,6.02,8
+18,20196,"Happy Hour Cabernet",66,217.50,3.30,4.67,9
+18,20197,"Happy Hour Malbec",64,195.00,3.05,4.19,10
+18,20255,"HH Reisling",42,147.50,3.51,3.17,11
+18,20265,"Happy Hour Wildflower",36,144.00,4.00,3.09,12
+18,20312,"Fan Shop",5,116.00,23.20,2.49,13
+18,20356,"Clos Du Bois Cab",23,103.00,4.48,2.21,14
+18,20341,"HH Mocktail",14,24.00,1.71,0.52,15
+18,20357,"Wine Spritzer",3,12.00,4.00,0.26,16
+18,20373,"Pink Colada (NON-ALCOHOL)",2,8.00,4.00,0.17,17
+18,20327,"Jello Shot",2,6.00,3.00,0.13,18
+18,20344,"Rum Punch",5,5.00,1.00,0.11,19
+19,20237,"Kombucha Can",427,1825.00,4.27,54.57,1
+19,20241,"Happy Hour Kombucha",381,1410.00,3.70,42.16,2
+19,20397,"HH Hard Seltzer",19,60.00,3.16,1.79,3
+19,20396,"Hard Seltzer",9,49.50,5.50,1.48,4
+20,20287,"Large Latte",2900,15950.50,5.50,32.33,1
+20,20296,"Large Brewed Coffee",1578,4907.00,3.11,9.95,2
+20,20286,"Large Americano",1188,4307.00,3.63,8.73,3
+20,20292,"Large Chai Latte",754,4068.00,5.40,8.25,4
+20,20290,"Large Mocha",698,3962.75,5.68,8.03,5
+20,20294,"Large Matcha Latte",457,2610.25,5.71,5.29,6
+20,20330,"Large Cappuccino",510,2465.50,4.83,5.00,7
+20,20297,"Large Hot Chocolate",440,2097.50,4.77,4.25,8
+20,20295,"Large Hot Tea",590,1783.25,3.02,3.61,9
+20,20288,"Large Caramel Macchiato",317,1705.75,5.38,3.46,10
+20,20289,"Large White Mocha",316,1579.50,5.00,3.20,11
+20,20291,"Large Chocolate Truffle Mocha",120,1499.75,12.50,3.04,12
+20,20336,"Large London Fog",169,771.00,4.56,1.56,13
+20,20321,"Lge Merrimint White Mocha",115,651.75,5.67,1.32,14
+20,20322,"Lrg Gingerbread Latte",114,608.75,5.34,1.23,15
+20,20418,"Lrg Gingerbread Chai",38,187.00,4.92,0.38,16
+20,20332,"Lrg Choc Truf Carm Macchiato",28,165.00,5.89,0.33,17
+20,20293,"Large Thai Tea Latte",3,16.75,5.58,0.03,18
+21,20274,"Large Iced Latte",4373,24127.75,5.52,26.53,1
+21,20285,"Large Iced Matcha",1599,9568.00,5.98,10.52,2
+21,20272,"Large Cold Brew",1858,8006.75,4.31,8.80,3
+21,20283,"Large Iced Chai Tea Latte",1388,7665.50,5.52,8.43,4
+21,20275,"Large Iced Caramel Macchiato",1313,7361.50,5.61,8.10,5
+21,20271,"Large Iced Americano",1517,5628.25,3.71,6.19,6
+21,20276,"Large Iced White Mocha",740,4201.00,5.68,4.62,7
+21,20279,"Large Iced Tea",1027,3560.75,3.47,3.92,8
+21,20280,"Large Straw Acai Refresher",691,3237.00,4.68,3.56,9
+21,20305,"Pumpkin Latte",548,3033.00,5.53,3.34,10
+21,20273,"Large Vanilla Sweet Cream Cold",640,2981.50,4.66,3.28,11
+21,20277,"Large Iced Mocha",555,2734.50,4.93,3.01,12
+21,20282,"Large Dragonfruit Refresher",437,2108.00,4.82,2.32,13
+21,20338,"Large Arnold Palmer",363,1592.00,4.39,1.75,14
+21,20278,"Large Iced Truffle Mocha",234,1237.50,5.29,1.36,15
+21,20362,"Lrg Lemonade",326,1100.50,3.38,1.21,16
+21,20334,"Lrg Iced Choc Truf Carm Macch",134,744.50,5.56,0.82,17
+21,20323,"Lrg Ice Gingerbread Latte",88,478.00,5.43,0.53,18
+21,20324,"Lrg Ice Merrimint White Mocha",63,353.75,5.62,0.39,19
+21,20354,"Lrg Pistachio Cinn Cold Brew",68,318.25,4.68,0.35,20
+21,20284,"Large Iced Thai Tea Latte",46,217.00,4.72,0.24,21
+21,20326,"Lrg Shortbread Cold Brew",47,194.75,4.14,0.21,22
+21,20314,"Large Bluebeary Lemonade",44,180.00,4.09,0.20,23
+21,20281,"Large Wildberry Hibiscus Ref",28,133.00,4.75,0.15,24
+21,20317,"Large Pink Drink",34,114.00,3.35,0.13,25
+21,20419,"Large Iced Gingerbread Chai",12,59.50,4.96,0.07,26
+22,20350,"Chocolate Mochi Donut",970,3107.75,3.20,15.55,1
+22,20345,"Mochi Muffin",591,2413.25,4.08,12.08,2
+22,20347,"Churro Muffin",594,2410.00,4.06,12.06,3
+22,20352,"Ube Coconut Mochi Donut",759,2324.00,3.06,11.63,4
+22,20351,"Matcha White Choc Mochi Donut",674,2222.75,3.30,11.12,5
+22,20365,"Ube Mochi Muffin",570,2104.25,3.69,10.53,6
+22,20348,"Mango Passion Mochi Donut",584,1967.50,3.37,9.85,7
+22,20346,"Matcha Mochi Muffin",315,774.00,2.46,3.87,8
+22,20408,"Pumpkin Muffin",149,663.50,4.45,3.32,9
+22,20349,"Strawberries N Cream Donut",164,543.00,3.31,2.72,10
+22,20364,"Mochi Brownie Muffin",114,461.25,4.05,2.31,11
+22,20409,"Thai Tea Donut",123,411.50,3.35,2.06,12
+22,20366,"Cal Donut",92,301.00,3.27,1.51,13
+22,20374,"Pride Rainbow Donut",66,223.50,3.39,1.12,14
+22,20372,"Half-Off Donut",27,56.00,2.07,0.28,15
