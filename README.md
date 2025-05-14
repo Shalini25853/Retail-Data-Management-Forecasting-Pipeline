@@ -1,10 +1,10 @@
 # Retail-Data-Management-Forecasting-Pipeline
 Designed and implemented a full data pipeline to clean, transform, and analyze retail sales data for historical insights and future forecasting.
-# 🛍️ Retail Data Management & Forecasting Pipeline
+#  Retail Data Management & Forecasting Pipeline
 
 This project was developed as part of a Data Management course, focusing on end-to-end data handling—from ingestion and transformation to analysis and forecasting—using retail sales and product datasets.
 
-## 📌 Overview
+## Overview
 
 The objective was to build a robust data pipeline that could:
 - Integrate and clean multiple retail data sources
@@ -13,7 +13,7 @@ The objective was to build a robust data pipeline that could:
 - Automate processes using PowerShell
 - Document data structure using ER diagrams
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 - **SQL (MySQL / Azure SQL)** – Historical & future queries
 - **Excel / Power Query** – Data cleaning & transformation
@@ -21,7 +21,7 @@ The objective was to build a robust data pipeline that could:
 - **CSV & XLSX** – Transformed datasets
 - **ER Diagram** – Relational schema design
 
-## 📁 Project Structure
+##  Project Structure
 
 ```bash
 DM_A2_Trio6_Pack/
